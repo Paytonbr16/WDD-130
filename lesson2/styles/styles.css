@@ -1,32 +1,13 @@
-body {
-    text-align: center;
-    background-color: lavenderblush;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* @import url('') if you want to put in your own font family from google fonts */
-  }
-nav {
-    background-color: rgb(11, 95, 164);
-    padding: 20px;
-  }
-a {
-    /* A stands for anchor, meaning the link words*/
-    color: white;
-    margin: 40px;
-  }
-h1 {
-    /* to color the heading */
-    color: steelblue;
-  }
-img {
-    /* to put a border around the img */
-    width: 800px;
-    border: 4px solid steelblue;
-  }
-p {
-    /* p is in the footer so the background color applies to it */
-    padding: 10px;
-  }
-footer {
-    background-color: steelblue;
-    color: white;
-  }
+.main-para {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+#active {
+  background-color: white;
+  color: steelblue;
+}
+
+.blue-text {
+  color: steelblue 
+}
