@@ -1,0 +1,13 @@
+.challenge_image {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+}
+
+body {
+    background-color: #737373
+}    
