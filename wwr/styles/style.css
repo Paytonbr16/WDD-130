@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Oswald&display=swap');
+/**
+    --heading-font: 'Oswald';
+    --paragraph-font: 'Kanit', Helvetica, sans-serif;
+**/
+
 div {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,7 +11,7 @@ div {
 
 nav a {
     text-align: center;
-    
+
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -23,90 +29,135 @@ main section {
 
 #background {
     height: 725px;
-    background-color: #e6fbff;
+    background-color: #e6fffe;
 }
 
 body {
     background-color: #e6fbff;
-    color: #0299b7
+    color: #027086;
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 
 header { 
     background-color: #e6fbff;
-    color: #0299b7;
+    color: #027086;
 }
 
 h4 {
-    color: #0299b7;
+    color: #027086;
     text-align: center;
 }
 
 nav a {
     text-align: center;
-    color: #0299b7;
+    color: #027086;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
-    background-color: #e6fbff;
-    color: #0299b7;
+    background-color: #15eaaa;
+    color: #005f96;
+    border-radius: 5px;
 }
 
 .home-title {
-    color: #0299b7;
+    color: #027086;
     text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .book, .join {
     background-color: #e6fbff;
-    color: #0299b7;
+    color: #027086;
     text-align: center;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.card-img {
+    border: 10px solid rgb(107, 112, 212); 
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 .book:hover, .join:hover {
-    background-color: #e6fbff;
-    color: #0299b7;
+    background-color: #15eaaa;
+    color: #005f96;
 }
 
 .msg {
     background-color: #e6fbff;
-    color: #0299b7;
+    color: #027086;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
-    color: #0299b7;
+    color: #027086;
+    font-family: 'Oswald', sans-serif;
 }
 
 .msg p {
-    color: #0299b7;
+    color: #027086;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 
 footer {
     background-color: #e6fbff;
-    color: #0299b7;
+    color: #027086;
     font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
-    color: #0299b7;
+    color: #027086;
     text-align: center;
     text-decoration: none;
 }
 
 footer a:hover {
-    color:#0299b7;
+    color:#005f96;
 }
 
 footer p a:hover {
     text-decoration: underline;
+    color: #005f96
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
     width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
