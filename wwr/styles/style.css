@@ -117,6 +117,20 @@ main section img {
     color: #005f96;
 }
 
+.book {
+    border-width: 10px;
+    color: #ceedff;
+    border-color: #005f96;
+    background-color: #005f96;
+}
+
+.join {
+    border-width: 10px;
+    color: #ceedff;
+    border-color: #005f96;
+    background-color: #005f96;
+}
+
 .msg {
     background-color: #e6fbff;
     color: #027086;
