@@ -5,7 +5,7 @@
 **/
 /**https://wireframe.cc/aGvFyv**/
 
-div {
+#content{
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -18,6 +18,10 @@ nav a {
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
     margin: 0 auto;
+}
+
+#hero-img{
+    width: 100%;
 }
 
 .button-box {
@@ -172,6 +176,7 @@ footer a {
     color: #027086;
     text-align: center;
     text-decoration: none;
+    padding: 30px;
 }
 
 footer a:hover {
@@ -266,6 +271,27 @@ footer .social img {
     grid-column: 6/10;
     grid-row: 6/7
 }
+
+/** Blog Page **/
+
+.blog-main1 {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.blog-main2 {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.blog-post {
+    background-color:white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: .5rem 0;
+}
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
