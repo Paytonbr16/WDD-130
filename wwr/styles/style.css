@@ -272,23 +272,52 @@ footer .social img {
     grid-row: 6/7
 }
 
-/** Blog Page **/
+/** ------------------- Blog Page -------------------- **/
+.blog-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    column-gap: 50px;
+    row-gap: 50px;
+}
 
 .blog-main1 {
     margin: 0 auto;
     max-width: 600px;
+    max-height: 600px;
 }
 
 .blog-main2 {
     margin: 0 auto;
     max-width: 600px;
+    max-height: 600px;
 }
 
-.blog-post {
+.blog-main3 {
+    grid-row: 2/4;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.blog-main4 {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.blog-post1 {
+    grid-row: 1/2;
     background-color:white;
     border-radius: 10px;
     padding: 1rem;
     margin: .5rem 0;
+}
+
+.blog-post2{
+    grid-row: 2/4;
+    background-color:white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: .5rem 0;
+    height: 1000px;
 }
 
 
