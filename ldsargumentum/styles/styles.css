@@ -183,10 +183,6 @@ img.studyt {
     padding: 30px;
 }
 
-.column-1 {
-    grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
-}
-
 .sbox1 {
     background-color: white;
     border-radius: 20px;
@@ -299,10 +295,6 @@ img.studyt {
     grid-row: 1/3;
     margin-top: 75px;
     text-align: center;
-}
-
-.column-2 {
-    grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
 }
 
 .sbox4 {
