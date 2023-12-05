@@ -88,6 +88,16 @@ hr {
     margin-top: 210px;
 }
 
+.homep1 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.homep2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 div#study-card {
     display: flex;
     justify-content: space-around;
@@ -190,10 +200,12 @@ img.studyt {
     margin-top: 20px;
     max-width: 680px;
     max-height: 500px;
+    text-align: center;
+    align-content: space-evenly;
 
     display: grid;
-    grid-template-columns: 340px 340px;
-    grid-template-rows: 150px 175px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 225px;
 
     scale: .90;
 }
@@ -201,7 +213,6 @@ img.studyt {
 .churchwl {
     grid-column: 1/2;
     grid-row: 2/3;
-    margin-left: 75px;
     padding: 20px;
     border-radius: 20px;
     background-color: #3D5A80;
@@ -210,15 +221,14 @@ img.studyt {
 .b1title {
     grid-column: 1/2;
     grid-row: 1/2;
-    margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .b1para {
     grid-column: 2/3;
     grid-row: 1/3;
-    margin-top: 75px;
     text-align: center;
+    align-self: center;
 }
 
 .sbox2 {
@@ -228,10 +238,12 @@ img.studyt {
     margin-top: 20px;
     max-width: 680px;
     max-height: 500px;
+    text-align: center;
+    align-content: space-evenly;
 
     display: grid;
-    grid-template-columns: 340px 340px;
-    grid-template-rows: 150px 175px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 225px;
 
     scale: .90;
 }
@@ -239,7 +251,6 @@ img.studyt {
 .logoswl {
     grid-column: 1/2;
     grid-row: 2/3;
-    margin-left: 75px;
     padding: 20px;
     border-radius: 20px;
     background-color: #3D5A80;
@@ -248,15 +259,15 @@ img.studyt {
 .b2title {
     grid-column: 1/2;
     grid-row: 1/2;
-    margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .b2para {
     grid-column: 2/3;
     grid-row: 1/3;
-    margin-top: 75px;
     text-align: center;
+    margin: 0 auto;
+    align-self: center;
 }
 
 .sbox3 {
@@ -266,9 +277,11 @@ img.studyt {
     margin-top: 20px;
     max-width: 680px;
     max-height: 500px;
+    text-align: center;
+    align-content: space-evenly;
 
     display: grid;
-    grid-template-columns: 340px 340px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 150px 175px;
 
     scale: .90;
@@ -277,7 +290,6 @@ img.studyt {
 .parallelwl {
     grid-column: 1/2;
     grid-row: 2/3;
-    margin-left: 75px;
     padding: 20px;
     border-radius: 20px;
     background-color: #3D5A80;
@@ -286,15 +298,14 @@ img.studyt {
 .b3title {
     grid-column: 1/2;
     grid-row: 1/2;
-    margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .b3para {
     grid-column: 2/3;
     grid-row: 1/3;
-    margin-top: 75px;
     text-align: center;
+    align-self: center;
 }
 
 .sbox4 {
@@ -304,10 +315,12 @@ img.studyt {
     margin-top: 20px;
     max-width: 680px;
     max-height: 500px;
+    text-align: center;
+    align-content: space-evenly;
 
     display: grid;
-    grid-template-columns: 340px 340px;
-    grid-template-rows: 150px 175px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 315px;
 
     scale: .90;
 }
@@ -315,7 +328,6 @@ img.studyt {
 .jspaperswl {
     grid-column: 1/2;
     grid-row: 2/3;
-    margin-left: 75px;
     padding: 20px;
     border-radius: 20px;
     background-color: #3D5A80;
@@ -324,16 +336,16 @@ img.studyt {
 .b4title {
     grid-column: 1/2;
     grid-row: 1/2;
-    margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 25px;
     text-align: center;
 }
 
 .b4para {
     grid-column: 2/3;
     grid-row: 1/3;
-    margin-top: 50px;
     text-align: center;
+    margin: 0 auto;
+    align-self: center;
 }
 
 .sbox5 {
@@ -343,10 +355,12 @@ img.studyt {
     margin-top: 20px;
     max-width: 680px;
     max-height: 500px;
+    text-align: center;
+    align-content: space-evenly;
 
     display: grid;
-    grid-template-columns: 340px 340px;
-    grid-template-rows: 150px 175px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 280px;
 
     scale: .90;
 }
@@ -356,7 +370,6 @@ img.studyt {
     grid-row: 2/3;
     max-width: 100px;
     max-height: 100px;
-    margin-left: 75px;
     padding: 20px;
     border-radius: 20px;
     background-color: #3D5A80;
@@ -365,16 +378,16 @@ img.studyt {
 .b5title {
     grid-column: 1/2;
     grid-row: 1/2;
-    margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 25px;
     text-align: center;
 }
 
 .b5para {
     grid-column: 2/3;
     grid-row: 1/3;
-    margin-top: 25px;
     text-align: center;
+    margin: 0 auto;
+    align-self: center;
 }
 
 /*footer stuff:*/
@@ -382,12 +395,39 @@ img.studyt {
 footer {
     display: flex;
     justify-content: space-around;
-    background-color: #98C1D9;
-    height: 50px;
+    height: 75px;
+    padding: 10px;
+    background-color: #70aacb;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    float: left;
+    display: block;
 }
 
 footer a:hover {
     background-color: #3D5A80;
     color: white;
     border-radius: 5px;
+}
+
+img.lds {
+    padding-top: 12px;
+}
+
+img.lds:hover {
+    background-color: #3D5A80;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 900px){
+
+    .boxes {
+        display: block;
+    }
 }
