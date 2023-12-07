@@ -107,14 +107,21 @@ div#study-card {
 
 .pstudy {
     padding: 20px;
+    text-align: center;
 }
 
 .studyimg {
     max-height: 180px;
+    padding: 20px;
+    background-color: #3D5A80;
+    border-radius: 20px
 }
 
 .questionimg {
     max-height: 250px;
+    padding: 20px;
+    background-color: #3D5A80;
+    border-radius: 20px
 }
 
 div#question-card {
@@ -130,6 +137,8 @@ img.questionimg {
 
 .pquestion {
     padding: 20px;
+    text-align: center;
+    margin-top: 60px;
 }
 
 /* Study page stuff:*/
@@ -401,7 +410,7 @@ img.studyt {
     grid-template-rows: 1fr 275px;
     grid-gap: 50px;
     padding: 30px;
-    margin-top: 200px;
+    margin-top: 180px;
 }
 
 .qhead1 {
@@ -434,7 +443,7 @@ img.studyt {
     grid-row: 1/2;
     text-align: center;
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 225px;
     width: 375px;
     background-color: white;
     padding: 15px;
@@ -448,7 +457,7 @@ img.studyt {
     grid-row: 1/2;
     text-align: center;
     margin: 0 auto;
-    margin-top: 435px;
+    margin-top: 455px;
     width: 350px;
 }
 
@@ -515,6 +524,45 @@ img.studyt {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 150px 225px;
+}
+
+.bomcwl {
+    background-color: #3D5A80;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.bomcwl {
+    height: 90px;
+    justify-items: center;
+    align-items: center;
+}
+
+.fairwl {
+    background-color: #3D5A80;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.faircwl {
+    height: 75px;
+    justify-items: center;
+    align-items: center;
+}
+
+.mormonrwl {
+    background-color: #3D5A80;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.mormonrwl {
+    height: 90px;
+    justify-items: center;
+    align-items: center;
 }
 
 
